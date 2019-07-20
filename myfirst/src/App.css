@@ -1,0 +1,113 @@
+.main
+{
+  width:100%;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  z-index: 0;
+  
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  width: 60vh;
+}
+
+.topnav
+{
+  margin:0;
+  display: flex;
+  z-index: 2;
+  top: 0;
+  height: 8vh;
+  list-style-type: none;
+  background-color: white;
+  width:100%;
+  position: sticky;
+  box-shadow: 2px 2px 15px #888;
+
+}
+.time{
+  margin: 8px 15px;
+  font-weight: 650;
+}
+.share{
+  margin: 8px 15px;
+  font-weight: 500;
+}
+
+.triagram{
+  font-weight: bold;
+  width:6vh;
+  align-self: center;
+  text-align: center;
+}
+.title
+{
+  width:100%;
+  align-self: center;
+  text-align: center;
+}
+.all{
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 4px 4px 6px rgb(146, 146, 146);
+  padding: 5px;
+}
+
+.car_img
+{
+  position: relative;
+  width: 10vh;
+  height: 10vh;
+  top:20px;
+  z-index: 1;
+ 
+  min-width: 10vh;
+}
+.dr_img
+{
+  border-radius: 50%;
+  box-shadow: 2px 2px 15px rgb(146, 146, 146);
+  width:10vh;
+  height: 10vh;
+}
+.img_dr
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width:17vh;
+  
+  
+}
+.img_vh
+{
+  display: flex;
+  align-items: center;
+  width:15vh;
+}
+.bde
+{
+  display:flex;
+  color:rgb(95, 94, 94);
+  font-weight: 400;
+  margin:20px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cont2
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+   width: 60vh;
+}
+.fromto
+{
+  width:40px;
+  
+  height: 45px;
+}
